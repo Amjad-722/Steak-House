@@ -1,5 +1,6 @@
 <script>
-  import Navabr from "../components/Navbar/Navabr.svelte";
+  import Home from "../components/Home/home.svelte";
+import Navabr from "../components/Navbar/Navabr.svelte";
 
 
 
@@ -8,5 +9,9 @@
 
 <main>
 
-    <Navabr/>   
+   <section>
+    <Navabr/>
+    <Home/>
+ 
+   </section>
 </main>
