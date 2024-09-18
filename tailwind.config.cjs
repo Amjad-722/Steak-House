@@ -5,8 +5,13 @@ module.exports = {
   ],
   theme: {
     container: {
-      padding: '2rem',},
-    extend: {},
+      padding: '2rem',
+    },
+    extend: {
+      colors: {
+        fontColor: '#EFA765', // Hex code for the color
+      },
+    },
   },
   plugins: [],
 }
