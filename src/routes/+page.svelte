@@ -1,5 +1,6 @@
 <script>
-  import Navabr from "../components/Navbar/Navabr.svelte";
+  import Home from "../components/Home/home.svelte";
+import Navabr from "../components/Navbar/Navabr.svelte";
 
 
 
@@ -8,5 +9,10 @@
 
 <main>
 
-    <Navabr/>   
+   <section class="h-screen max-h-full bg-cover  bg-no-repeat   bg-center" style="background-image: url('https://t3.ftcdn.net/jpg/05/73/69/98/360_F_573699890_jzicI81KNwKhGY6fDXE3tcHD3ISmCd1y.jpg');">
+    <Navabr/>
+    <Home/>
+ 
+   </section>
+   
 </main>

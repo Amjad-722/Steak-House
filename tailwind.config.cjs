@@ -4,7 +4,14 @@ module.exports = {
     './src/**/*.{html,js,svelte,ts}'
   ],
   theme: {
-    extend: {},
+    container: {
+      padding: '2rem',
+    },
+    extend: {
+      colors: {
+        fontColor: '#EFA765', // Hex code for the color
+      },
+    },
   },
   plugins: [],
 }
