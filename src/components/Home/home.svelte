@@ -1,12 +1,17 @@
 <script>
 
-let heading = "A Premium and Authentic Steak House"
-
 </script>
 
-<div>
-    <div class="flex flex-col items-center justify-center pt-60">
-        <h1 class="font-extrabold text-8xl ">{heading}</h1>
-       
-    </div>
+<div class="flex flex-col justify-center items-center h-screen text-center pt-50"
+>
+  <p class="text-2xl text-black font-bold mb-6 max-w-lg pt-6">
+    The Boutique Store For Plants!
+  </p>
+
+  <h1 class="text-8xl text-black font-bold mb-4 pt-6">
+    Everything Is Better
+    <br />
+  </h1>
+  <h1 class="text-8xl text-black
+   font-bold mb-4 pt-6">With Plants</h1>
 </div>

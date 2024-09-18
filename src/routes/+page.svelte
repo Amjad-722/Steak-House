@@ -11,7 +11,8 @@ import Navabr from "../components/Navbar/Navabr.svelte";
 
    <section>
     <Navabr/>
-    <Home/>
+    
  
    </section>
+   <Home/>
 </main>
