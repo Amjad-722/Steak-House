@@ -9,6 +9,7 @@
 
 
 
+
 <nav class="  mx-auto dark:bg-gray-900 fixed w-full z-20 top-0 pt-6 start-0  dark:border-gray-600">
   <div class="max-w-screen-xl  flex flex-wrap items-center py-3 justify-between mx-auto ">
   <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
@@ -34,8 +35,10 @@
       </li>
       <li>
         <a href="#" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-fontColor  md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+
       </li>
     </ul>
   </div>
   </div>
 </nav>
+ 
