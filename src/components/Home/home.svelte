@@ -1,17 +1,13 @@
 <script>
+  import Button from "../Button/button.svelte";
 
+let heading="A Premium and Authentic Steak House" 
 </script>
 
-<div class="flex flex-col justify-center items-center h-screen text-center pt-50"
+<div class="flex flex-col container justify-start  mx-auto pl-40 items-center h-screen text-center pt-60"
 >
-  <p class="text-2xl text-fontColor font-bold mb-6 max-w-lg pt-6">
-    The Boutique Store For Plants!
-  </p>
+<h1 class="text-8xl font-extrabold text-fontColor"> {heading}</h1>  
 
-  <h1 class="text-8xl text-fontColor font-bold mb-4 pt-6">
-    Everything Is Better
-    <br />
-  </h1>
-  <h1 class="text-8xl text-fontColor
-   font-bold mb-4 pt-6">With Plants</h1>
+  <Button size="lg"   className="mt-6">
+    Make Reservation  </Button>
 </div>
