@@ -9,7 +9,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        fontColor: '#EFA765', // Hex code for the color
+        fontColor: '#EFA765', 
+        bgColor:"#232533" 
       },
     },
   },
