@@ -1,6 +1,7 @@
 <script>
   import Home from "../components/Home/home.svelte";
 import Navabr from "../components/Navbar/Navabr.svelte";
+  import ReserverTable from "../components/Reservations/reserverTable.svelte";
 
 
 
@@ -14,6 +15,9 @@ import Navabr from "../components/Navbar/Navabr.svelte";
 >
   <Navabr />
   <Home />
+</section>
+<section>
+  <ReserverTable/>
 </section>
 
    
