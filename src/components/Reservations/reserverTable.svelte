@@ -54,7 +54,7 @@
           <span><br />{section.headingLine3}</span>
         </h1>
         <img
-          class="mt-16 w-96 border-4 border-fontColor"
+          class="mt-16 w-96 h-96 border-4 border-fontColor"
           src={section.image}
           alt={section.headingLine3}
         />
@@ -72,7 +72,7 @@
           <span><br />{section.headingLine3}</span>
         </h1>
         <img
-          class="mt-16 w-96 border-4 border-fontColor"
+          class="mt-16 w-96 h-96 border-4 border-fontColor"
           src={section.image}
           alt={section.headingLine3}
         />
@@ -84,7 +84,7 @@
     </div>
 
     {#if index === 0}
-      <h2 class="text-4xl font-bold text-fontColor text-center mt-10">
+      <h2 class="text-6xl font-extrabold text-fontColor text-center mt-10">
         Our Featured Delicacies
       </h2>
     {/if}
