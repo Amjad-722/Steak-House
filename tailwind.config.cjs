@@ -10,7 +10,7 @@ module.exports = {
     extend: {
       colors: {
         fontColor: '#EFA765', 
-        bgColor:"#232533" 
+        bgColor:"#232533" ,
       },
     },
   },
