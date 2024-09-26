@@ -2,6 +2,7 @@
   import Home from "../components/Home/home.svelte";
 import Navabr from "../components/Navbar/Navabr.svelte";
   import ReserverTable from "../components/Reservations/reserverTable.svelte";
+  import Testimonial from "../components/testimonial/testimonial .svelte";
 
 
 
@@ -18,6 +19,9 @@ import Navabr from "../components/Navbar/Navabr.svelte";
 </section>
 <section>
   <ReserverTable/>
+</section>
+<section>
+  <Testimonial/>
 </section>
 
    
