@@ -59,7 +59,7 @@
           alt={section.headingLine3}
         />
 
-        <p class="mt-2 text-center text-fontColor text-sm italic">
+        <p class="mt-2 text-center text-fontColor text-2xl font-medium italic">
           {section.imageDesc}
         </p>
       </div>
