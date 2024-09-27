@@ -18,7 +18,7 @@
     ];
   </script>
   
-  <section class="bg-gray-900 text-white py-16 px-4 md:px-8">
+  <section class="bg-bgColor text-white py-16 px-4 md:px-8">
     <div class="max-w-6xl mx-auto">
       <h2 class="text-4xl md:text-5xl font-bold text-orange-400 mb-12">Loved by Many</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
