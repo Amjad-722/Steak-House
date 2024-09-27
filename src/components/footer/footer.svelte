@@ -4,7 +4,7 @@
    
   </script>
   
-  <footer class="bg-bgColor text-white py-16 px-4 md:px-8">
+  <footer class="bg-bgColor text-white py-16 pt-20 px-4 md:px-8">
     <div class="max-w-6xl mx-auto">
       <h2 class="text-xl md:text-4xl font-bold text-center mb-10">We Are Waiting to Serve You!</h2>
       
