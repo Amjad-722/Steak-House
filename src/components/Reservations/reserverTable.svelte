@@ -1,8 +1,8 @@
-<!-- Import the Button component -->
+
 <script>
   import Button from "../Button/button.svelte";
 
-  // Data to be reused
+  
   let sections = [
     {
       headingLine: "Our Delicious Story ",
@@ -96,7 +96,6 @@
     max-width: 28rem;
   }
 
-  /* Additional styling */
   .italic {
     font-style: italic;
   }
