@@ -40,7 +40,7 @@
   ];
 </script>
 
-<main class="bg-bgColor">
+<main class="  bg-bgColor">
   {#each sections as section, index}
     <div
       class="container flex flex-row gap-48 mx-auto px-10 justify-center items-center pt-20"

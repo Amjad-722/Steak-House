@@ -1,5 +1,6 @@
 <script>
-  import Home from "../components/Home/home.svelte";
+  import Footer from "../components/footer/footer.svelte";
+import Home from "../components/Home/home.svelte";
 import Navabr from "../components/Navbar/Navabr.svelte";
   import ReserverTable from "../components/Reservations/reserverTable.svelte";
   import Testimonial from "../components/testimonial/testimonial .svelte";
@@ -22,6 +23,9 @@ import Navabr from "../components/Navbar/Navabr.svelte";
 </section>
 <section>
   <Testimonial/>
+</section>
+<section>
+  <Footer/>
 </section>
 
    
