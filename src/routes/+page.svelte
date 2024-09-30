@@ -14,7 +14,7 @@ import Navabr from "../components/Navbar/Navabr.svelte";
 <main>
   <section
   class="h-screen max-h-full bg-cover bg-no-repeat bg-center bg-blend-overlay relative"
-  style="background-image: url('https://t3.ftcdn.net/jpg/05/73/69/98/360_F_573699890_jzicI81KNwKhGY6fDXE3tcHD3ISmCd1y.jpg'); background-color: #232533; opacity: 0.9;"
+  style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS127cmrUllJpcrNdkNscsZpqNUfLESi0um7z0tv-Cjjnb0b4jBijcT4J9va1rR8bbrepU&usqp=CAU'); background-color: #232533; opacity: 0.9;"
 >
   <Navabr />
   <Home />

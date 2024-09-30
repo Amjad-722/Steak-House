@@ -31,7 +31,7 @@
 
 <main class="h-dvh pt-20 relative">
   
-  <div class="absolute inset-0 bg-cover bg-fixed bg-center opacity-90" style="background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230613/pngtree-some-green-plants-and-leaves-against-a-dark-background-image_2899643.jpg');"></div>
+  <div class="absolute inset-0 bg-cover bg-fixed bg-center opacity-90" style="background-image: url('https://img.freepik.com/premium-photo/exquisite-gourmet-beef-steak-dark-plate-fine-dining-classy-restaurant-elegant-food-presentation-plating-perfect-culinary-enthusiasts-ai_372197-30733.jpg');"></div>
 
   <div class="absolute inset-0 bg-bgColor bg-opacity-70"></div>
 
