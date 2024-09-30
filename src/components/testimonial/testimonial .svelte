@@ -1,62 +1,62 @@
 <script>
-  // Static testimonials data
-  const testimonials = [
-    {
-      name: "Jessica Sommer",
-      image: "https://pics.craiyon.com/2024-02-17/_K8wDxopQLqGh_x04lcSpg.webp",
-      text: "Diam, urna, ornare leo facilisis suspendisse eu rutrum id augue cursus tincidunt nisl eget ornare pharetra ac pharetra, pulvinar ipsum sed amet diam morbi amet cursus blandit augue feugiat arcu aliquet egestas id diam."
-    },
-    {
-      name: "Bryan Lambert",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8WkvdNWpnyEuf8IOVVU4t-U2vNPLWHVirp-O8Ihwh6vSyKELcXIFthwuiqh6uxKRTafU&usqp=CAU",
-      text: "Diam, urna, ornare leo facilisis suspendisse eu rutrum id augue cursus tincidunt nisl eget ornare pharetra ac pharetra, pulvinar ipsum sed amet diam morbi amet cursus blandit augue feugiat arcu aliquet egestas id diam."
-    },
-    {
-      name: "Kristin Foster",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGiIXrwRUIUFDsnJPAc0uH8GQyeQMtnLbt_9elpFGjra6jlZIMUEinkYcQGRLB4KaHpWA&usqp=CAU",
-      text: "Diam, urna, ornare leo facilisis suspendisse eu rutrum id augue cursus tincidunt nisl eget ornare pharetra ac pharetra, pulvinar ipsum sed amet diam morbi amet cursus blandit augue feugiat arcu aliquet egestas id diam."
-    }
-  ];
+  let para = "Testimonial";
+  let heading = "What Our Clients Say";
+  let lorem =
+    "Integer posuere erat a anteLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a anteLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a anteLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.";
 
-  // Section title
-  const title = "Loved by Many";
+  let testimonials = [
+    {
+      name: "Abhishek",
+      image: "https://images.unsplash.com/photo-1464863979621-258859e62245?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGdpcmwlMjBiZWF1dGlmdWx8ZW58MHx8MHx8fDA%3D",
+      text: lorem,
+    },
+    {
+      name: "John Doe",
+      image: "https://img.freepik.com/premium-photo/girl-with-long-brown-hair-blue-eyes_854727-137935.jpg",
+      text: lorem,
+    },
+    {
+      name: "Jane Smith",
+      image: "https://img.freepik.com/premium-photo/girl-with-long-brown-hair-blue-eyes_854727-137935.jpg",
+      text: lorem,
+    },
+    {
+      name: "Chris Evans",
+      image: "https://img.freepik.com/premium-photo/girl-with-long-brown-hair-blue-eyes_854727-137935.jpg",
+      text: lorem,
+    },
+  ];
 </script>
 
-<main class="bg-bgColor pt-20">
-  <div class="container bg-bgColor mx-auto text-white px-4">
-    <!-- Title Section -->
-    <h2 class="text-4xl md:text-5xl font-bold text-orange-400 mb-12 text-center">
-      {title}
-    </h2>
 
-    <!-- Grid Container -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-      
-      <!-- First Testimonial -->
-      <div class="border hover:border-orange-400 rounded-lg p-6 space-y-4">
-        <p class="text-lg">{testimonials[0].text}</p>
-        <div class="flex items-center space-x-4">
-          <img src={testimonials[0].image} alt={testimonials[0].name} class="w-16 h-16 rounded-full object-cover" />
-          <span class="font-semibold">{testimonials[0].name}</span>
+<main class="h-dvh mt-16 relative">
+  
+  <div class="absolute inset-0 bg-cover bg-fixed bg-center opacity-90" style="background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230613/pngtree-some-green-plants-and-leaves-against-a-dark-background-image_2899643.jpg');"></div>
+
+  <div class="absolute inset-0 bg-bgColor bg-opacity-70"></div>
+
+  
+  <div class="relative flex flex-col justify-center items-center mb-12 z-10">
+    <p class="font-medium py-6 text-3xl">{para}</p>
+    <h1 class="font-extrabold text-6xl text-center">{heading}</h1>
+  </div>
+
+ 
+  <div class="relative grid grid-cols-1 md:grid-cols-2 gap-8 px-12 z-10 max-w-7xl mx-auto">
+    {#each testimonials as testimonial}
+      <div
+        class="border-2 border-gray-300 hover:border-blue-500 transition hover:translate-x-3 duration-300 p-6 rounded-md shadow-md bg-white bg-opacity-80  w-full"
+      >
+        <p>{testimonial.text}</p>
+        <div class="flex flex-row items-center mt-4">
+          <img
+            class="w-12 h-12 rounded-full"
+            src={testimonial.image}
+            alt="Client Image"
+          />
+          <p class="font-medium py-6 text-3xl ml-4">{testimonial.name}</p>
         </div>
       </div>
-
-      <!-- Remaining Testimonials -->
-      <div class="space-y-8">
-        {#each testimonials.slice(1) as testimonial}
-          <div class="border hover:border-orange-400 rounded-lg p-6 space-y-4">
-            <p class="text-lg">{testimonial.text}</p>
-            <div class="flex items-center space-x-4">
-              <img src={testimonial.image} alt={testimonial.name} class="w-16 h-16 rounded-full object-cover" />
-              <span class="font-semibold">{testimonial.name}</span>
-            </div>
-          </div>
-        {/each}
-      </div>
-
-    </div>
+    {/each}
   </div>
 </main>
-
-
-
