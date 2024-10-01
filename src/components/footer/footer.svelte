@@ -56,7 +56,7 @@
         />
       </div>
       
-      <!-- Hours Section -->
+  
       <div class="text-center md:text-left w-full md:w-1/3">
         <h3 class="text-xl md:text-2xl font-bold mb-4">Hours</h3>
         {#each hours as { day, time }}
@@ -64,15 +64,10 @@
         {/each}
       </div>
     </div>
-    
-    <!-- Social Links -->
+  
     <div class="mt-12 text-center">
       <div class="flex justify-center space-x-4">
-        <!-- Add social icons here -->
-        <!-- Example: 
-        <a href="#" class="hover:text-gray-300">
-          <i class="fab fa-facebook"></i>
-        </a> -->
+       
       </div>
     </div>
   </div>
@@ -84,6 +79,6 @@
   }
 
   img {
-    border-radius: 0.75rem; /* Adding rounded corners to the image */
+    border-radius: 0.75rem; 
   }
 </style>
