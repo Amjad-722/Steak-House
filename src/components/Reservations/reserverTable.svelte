@@ -1,8 +1,6 @@
-
 <script>
   import Button from "../Button/button.svelte";
 
-  
   let sections = [
     {
       headingLine: "Our Delicious Story ",
@@ -40,51 +38,43 @@
   ];
 </script>
 
-<main class="  bg-bgColor">
+<main class="bg-bgColor px-4 sm:px-6 lg:px-8">
   {#each sections as section, index}
     <div
-      class="container flex flex-row gap-48 mx-auto px-10 justify-center items-center pt-20"
+      class="container flex flex-col lg:flex-row lg:gap-24 mx-auto justify-center items-center pt-20"
     >
-      <div class="flex flex-col justify-end items-end">
-        <h1
-          class="text-5xl font-extrabold leading-snug sm:leading-snug md:leading-medium lg:leading-medium text-fontColor"
-        >
+      <div class="flex flex-col justify-center items-center lg:items-end lg:w-1/2 px-4 lg:px-0">
+        <h1 class="text-3xl md:text-5xl font-extrabold leading-snug text-center lg:text-right text-fontColor">
           {section.headingLine1}
           <span><br />{section.headingLine2}</span>
           <span><br />{section.headingLine3}</span>
         </h1>
         <img
-          class="mt-16 w-96 h-96 border-4 border-fontColor"
+          class="mt-8 lg:mt-16 w-full max-w-md lg:max-w-lg h-auto border-4 border-fontColor"
           src={section.image}
           alt={section.headingLine3}
         />
-
-        <p class="mt-2 text-center text-fontColor text-2xl font-medium italic">
+        <p class="mt-4 text-center text-fontColor text-base lg:text-2xl font-medium italic">
           {section.imageDesc}
         </p>
       </div>
-      <div class="flex flex-col justify-end items-end">
-        <h1
-          class="text-5xl font-extrabold leading-snug sm:leading-snug md:leading-medium lg:leading-medium text-fontColor"
-        >
+      <div class="flex flex-col justify-start items-center lg:items-start lg:w-1/2 px-4 lg:px-0 mt-12 lg:mt-0">
+        <h1 class="text-3xl md:text-5xl font-extrabold leading-snug text-center lg:text-left text-fontColor">
           {section.headingLine1}
           <span><br />{section.headingLine2}</span>
           <span><br />{section.headingLine3}</span>
         </h1>
-        <img
-          class="mt-16 w-96 h-96 border-4 border-fontColor"
-          src={section.image}
-          alt={section.headingLine3}
-        />
-
-        <p class="mt-2 text-center text-fontColor text-sm italic">
-          {section.imageDesc}
+        <p class="mt-4 text-base lg:text-lg text-center lg:text-left text-fontColor">
+          {section.para}
         </p>
+        <Button size="lg" class="mt-6">
+          {section.buttonText}
+        </Button>
       </div>
     </div>
 
     {#if index === 0}
-      <h2 class="text-6xl font-extrabold text-fontColor text-center mt-10">
+      <h2 class="text-3xl md:text-5xl font-extrabold text-fontColor text-center mt-16 lg:mt-24">
         Our Featured Delicacies
       </h2>
     {/if}
@@ -92,11 +82,15 @@
 </main>
 
 <style>
+  main {
+    transition: all 0.3s ease-in-out;
+  }
+
   .max-w-md {
     max-width: 28rem;
   }
 
-  .italic {
-    font-style: italic;
+  .lg\:gap-24 {
+    gap: 6rem;
   }
 </style>
