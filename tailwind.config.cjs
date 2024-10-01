@@ -5,12 +5,18 @@ module.exports = {
   ],
   theme: {
     container: {
-      padding: '8rem',
+      padding: {
+        DEFAULT: '1rem', 
+        sm: '2rem',
+        md: '4rem',
+        lg: '6rem',
+        xl: '8rem', 
+      },
     },
     extend: {
       colors: {
         fontColor: '#EFA765', 
-        bgColor:"#232533" ,
+        bgColor: "#232533",
       },
     },
   },
