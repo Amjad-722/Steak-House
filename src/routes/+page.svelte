@@ -37,6 +37,9 @@ import Navabr from "../components/Navbar/Navabr.svelte";
 <section class="h-screen ">
   <Tabs/>
   <h1 class="mt-48">HoveredCards</h1>
+ 
+</section>
+<section>
   <HoverCard/>
 </section>
 
