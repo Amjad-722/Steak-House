@@ -2,8 +2,10 @@
   import Bg from "../components/BG.svelte";
 import Footer from "../components/footer/footer.svelte";
 import Home from "../components/Home/home.svelte";
+  import HoverCard from "../components/HoverCard.svelte";
 import Navabr from "../components/Navbar/Navabr.svelte";
   import ReserverTable from "../components/Reservations/reserverTable.svelte";
+  import Tabs from "../components/Tabs.svelte";
   import Testimonial from "../components/testimonial/testimonial .svelte";
 
 
@@ -31,6 +33,11 @@ import Navabr from "../components/Navbar/Navabr.svelte";
 </section>
 <section>
   <Footer/>
+</section>
+<section class="h-screen ">
+  <Tabs/>
+  <h1 class="mt-48">HoveredCards</h1>
+  <HoverCard/>
 </section>
 
    
