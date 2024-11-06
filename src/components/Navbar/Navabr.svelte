@@ -15,7 +15,7 @@
   }
 </script>
 
-<nav class="w-full top-0 pt-6 start-0 mx-auto  z-20">
+<nav class="w-full top-0 pt-6 start-0 mx-auto sticky z-20">
   <div class="max-w-screen-xl flex flex-wrap items-center py-3 justify-between mx-auto px-4">
     <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
       <span class="self-center text-2xl font-semibold whitespace-nowrap text-white dark:text-white">
@@ -26,7 +26,7 @@
     <div class="flex md:order-2 space-x-3 rtl:space-x-reverse">
       <Button size="md">Make Reservation</Button>
 
-      <!-- Hamburger Menu Button for small screens -->
+     
       <button
         class="inline-flex items-center p-2 ml-3 text-sm text-white rounded-lg md:hidden  focus:outline-none focus:ring-2 focus:ring-gray-600"
         aria-controls="navbar-sticky"
@@ -43,7 +43,7 @@
       </button>
     </div>
 
-    <!-- Navigation Links for both mobile and desktop -->
+    
     <div
       class={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${showMenu ? "block" : "hidden"} md:block`}
       id="navbar-sticky"
