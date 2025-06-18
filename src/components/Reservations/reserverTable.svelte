@@ -67,7 +67,7 @@
         <p class="mt-4 text-base lg:text-lg text-center lg:text-left text-fontColor">
           {section.para}
         </p>
-        <Button size="lg" class="mt-6">
+        <Button size="md" className="mt-10">
           {section.buttonText}
         </Button>
       </div>
