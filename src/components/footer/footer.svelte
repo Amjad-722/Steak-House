@@ -15,7 +15,7 @@
   ];
 </script>
 
-<footer class="bg-bgColor text-white pt-12 md:pt-24 px-4 md:px-8">
+<footer id="footer" class="bg-bgColor text-white pt-12 md:pt-24 px-4 md:px-8">
   <div class="max-w-6xl mx-auto">
     <!-- Title -->
     <h2 class="text-2xl md:text-4xl font-bold text-center mb-8 md:mb-10">We Are Waiting to Serve You!</h2>

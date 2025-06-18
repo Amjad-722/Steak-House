@@ -26,7 +26,7 @@
   ];
 </script>
 
-<section class="bg-cover bg-center bg-no-repeat relative bg-opacity-70" style="background-image: url('https://img.freepik.com/premium-photo/exquisite-gourmet-beef-steak-dark-plate-fine-dining-classy-restaurant-elegant-food-presentation-plating-perfect-culinary-enthusiasts-ai_372197-30733.jpg');">
+<section id="testimonial" class="bg-cover bg-center bg-no-repeat relative bg-opacity-70" style="background-image: url('https://img.freepik.com/premium-photo/exquisite-gourmet-beef-steak-dark-plate-fine-dining-classy-restaurant-elegant-food-presentation-plating-perfect-culinary-enthusiasts-ai_372197-30733.jpg');">
   <div class="bg-bgColor bg-opacity-70 p-12">
     <div class="text-center py-12">
       <p class="font-medium text-fontColor text-3xl">{para}</p>

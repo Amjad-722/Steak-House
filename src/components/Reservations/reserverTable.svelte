@@ -38,7 +38,7 @@
   ];
 </script>
 
-<main class="bg-bgColor px-4 sm:px-6 lg:px-8">
+<section id="services" class="bg-bgColor px-4 sm:px-6 lg:px-8">
   {#each sections as section, index}
     <div
       class="container flex flex-col lg:flex-row lg:gap-24 mx-auto justify-center items-center pt-20"
@@ -79,7 +79,7 @@
       </h2>
     {/if}
   {/each}
-</main>
+    </section>
 
 <style>
   main {
