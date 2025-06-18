@@ -5,8 +5,8 @@
   
     
     const sizeClasses = {
-      sm: 'px-4 py-2 text-sm',
-      md: 'px-8 py-3 text-base',
+      sm: 'px-4 py-2 text-sm rounded-[8px]',
+      md: 'px-8 py-3 text-base rounded-[10px]',
       lg: 'px-10 py-2 text-lg',
       xl: 'px-16 py-6 text-xl',
     };
