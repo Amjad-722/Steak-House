@@ -4,23 +4,23 @@
   export let heading = "What Our Clients Say";
   export let testimonials = [
     {
-      name: "Abhishek",
-      image: "https://images.unsplash.com/photo-1464863979621-258859e62245?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGdpcmwlMjBiZWF1dGlmdWx8ZW58MHx8MHx8fDA%3D",
+      name: "Ali",
+      image: "https://avatars.githubusercontent.com/u/159441246?v=4",
       text: "Integer posuere erat a anteLorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
       name: "John Doe",
-      image: "https://img.freepik.com/premium-photo/girl-with-long-brown-hair-blue-eyes_854727-137935.jpg",
+      image: "https://avatars.githubusercontent.com/u/159441246?v=4",
       text: "Integer posuere erat a anteLorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
       name: "Jane Smith",
-      image: "https://img.freepik.com/premium-photo/girl-with-long-brown-hair-blue-eyes_854727-137935.jpg",
+      image: "https://avatars.githubusercontent.com/u/159441246?v=4",
       text: "Integer posuere erat a anteLorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
       name: "Chris Evans",
-      image: "https://img.freepik.com/premium-photo/girl-with-long-brown-hair-blue-eyes_854727-137935.jpg",
+      image: "https://avatars.githubusercontent.com/u/159441246?v=4",
       text: "Integer posuere erat a anteLorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
   ];
@@ -37,7 +37,7 @@
         <div class="border-2 border-gray-300 hover:border-fontColor text-white transition-transform hover:scale-105 duration-300 p-6 rounded-md shadow-md bg-bgColor bg-opacity-80">
           <p>{testimonial.text}</p>
           <div class="flex flex-row items-center mt-4">
-            <img class="w-12 h-12 rounded-full" src={testimonial.image} alt="Client Image" />
+            <img class="size-12 rounded-full"  src={testimonial.image} alt={testimonial.name} />
             <p class="font-medium text-xl md:text-2xl ml-4">{testimonial.name}</p>
           </div>
         </div>

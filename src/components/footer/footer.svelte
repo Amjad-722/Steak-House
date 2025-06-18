@@ -22,7 +22,7 @@
     
     <!-- Button -->
     <div class="flex justify-center mb-8">
-      <Button size="lg">{buttonText}</Button>
+      <Button size="md">{buttonText}</Button>
     </div>
 
     <!-- Phone Number -->
@@ -34,8 +34,8 @@
     <nav class="flex justify-center space-x-4 md:space-x-8 mb-12 md:mb-16">
       <a href="#" class="hover:text-fontColor">Home</a>
       <a href="#" class="hover:text-fontColor">About</a>
-      <a href="#" class="hover:text-fontColor">Menu</a>
-      <a href="#" class="hover:text-fontColor">Contact</a>
+      <a href="#services" class="hover:text-fontColor">Menu</a>
+      <a href="#footer" class="hover:text-fontColor">Contact</a>
     </nav>
     
     <!-- Footer Content -->
@@ -60,7 +60,7 @@
       <div class="text-center md:text-left w-full md:w-1/3">
         <h3 class="text-xl md:text-2xl font-bold mb-4">Hours</h3>
         {#each hours as { day, time }}
-          <p>{day} : {time}</p>
+          <p class="mt-2">{day} : <span class="pl-4">{time}  </span> </p>
         {/each}
       </div>
     </div>

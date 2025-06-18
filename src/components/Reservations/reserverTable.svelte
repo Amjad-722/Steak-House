@@ -50,7 +50,7 @@
           <span><br />{section.headingLine3}</span>
         </h1>
         <img
-          class="mt-8 lg:mt-16 w-full max-w-md lg:max-w-lg h-auto border-4 border-fontColor"
+          class="mt-8 lg:mt-16 w-full max-w-md lg:max-w-lg rounded-[10px] h-auto border-4 border-fontColor"
           src={section.image}
           alt={section.headingLine3}
         />

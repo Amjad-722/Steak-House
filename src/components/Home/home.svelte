@@ -12,7 +12,7 @@
     <span>{headingLine3}</span>
   </h1>
 
-  <Button size="lg" className="mt-10">
+  <Button size="md" className="mt-10">
     Make Reservation
   </Button>
 </div>
