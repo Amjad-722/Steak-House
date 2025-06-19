@@ -6,7 +6,7 @@
     { name: "About", href: "services" },
     { name: "Services", href: "testimonial" },
      { name: "Testimonial", href: "testimonial" },
-    { name: "Contact", href: "#footer" }
+    { name: "Contact", href: "footer" }
   ];
 
   let showMenu = false;
