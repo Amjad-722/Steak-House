@@ -2,8 +2,8 @@
   import Button from "../Button/button.svelte";
   export let brandName = "Steak House";
   export let links = [
-    { name: "Home", href: "#home", },
-    { name: "About", href: "#services" },
+    { name: "Home", href: "home", },
+    { name: "About", href: "services" },
     { name: "Services", href: "#testimonial" },
      { name: "Testimonial", href: "#testimonial" },
     { name: "Contact", href: "#footer" }
