@@ -4,9 +4,9 @@
   export let links = [
     { name: "Home", href: "home", },
     { name: "About", href: "services" },
-    { name: "Services", href: "#testimonial" },
-     { name: "Testimonial", href: "#testimonial" },
-    { name: "Contact", href: "#footer" }
+    { name: "Services", href: "testimonial" },
+     { name: "Testimonial", href: "testimonial" },
+    { name: "Contact", href: "footer" }
   ];
 
   let showMenu = false;
