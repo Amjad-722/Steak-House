@@ -4,8 +4,8 @@
   export let links = [
     { name: "Home", href: "home", },
     { name: "About", href: "services" },
-    { name: "Services", href: "#testimonial" },
-     { name: "Testimonial", href: "#testimonial" },
+    { name: "Services", href: "testimonial" },
+     { name: "Testimonial", href: "testimonial" },
     { name: "Contact", href: "#footer" }
   ];
 
